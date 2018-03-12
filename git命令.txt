@@ -1,22 +1,25 @@
-��װ��ɺ�����ȫ���û��������䡣�����ֿ����������û�����ȥ��--global
+安装完成后配置全局用户名，邮箱。单个仓库设置其他用户名，去掉--global
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 
-�鿴������Ϣ
-git config �Clist
+查看配置信息
+git config –list
 
-�����汾��
+创建版本库
 git init
-pwd  ����������ʾ��ǰĿ¼
-ls �Cah ��ʾ����
+pwd  命令用于显示当前目录
+ls –ah 显示内容
 
-���ļ����ӵ��ֿ⣺
+把文件添加到仓库：
 $ git add readme.txt
 
-���ļ��ύ���ֿ⣺
+把文件提交到仓库：
 $ git commit -m "wrote a readme file"
-һ�ο����ύ����ļ�
+一次可以提交多个文件
 
-�鿴״̬��
+查看状态：
 $ git status
+
+查看修改内容：
+git diff 
 
