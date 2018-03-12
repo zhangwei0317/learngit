@@ -19,6 +19,8 @@ $ git commit -m "wrote a readme file"
 
 查看状态：
 $ git status
+中文乱码解决：
+git config --global core.quotepath false
 
 查看修改内容：
 git diff 
@@ -31,6 +33,13 @@ $ git reset --hard HEAD^
 
 查看内容：
 cat readme.txt
+
+删除文件：
+rm test.txt
+$ git rm test.txt
+$ git commit -m "remove test.txt"
+还原文件：
+$ git checkout -- test.txt
 
 
 
