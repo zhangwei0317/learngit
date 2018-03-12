@@ -41,5 +41,16 @@ $ git commit -m "remove test.txt"
 还原文件：
 $ git checkout -- test.txt
 
+远程仓库：
+创建SSH Key：
+$ ssh-keygen -t rsa -C "263710380@qq.com"
+
+关联GitHub库：
+$ git remote add origin git@github.com:michaelliao/learngit.git （origin自定义远程库名字）
+推送到远程库：
+$ git push -u origin master （第一次）
+$ git push origin master 
+
+
 
 
