@@ -15,7 +15,7 @@ $ git add readme.txt
 
 把文件提交到仓库：
 $ git commit -m "wrote a readme file"
-一次可以提交多个文件
+一次可以提交多个文件，进入vim 按esc退出编辑状态，按shift+；，输入q！或wq！回车
 
 查看状态：
 $ git status
@@ -50,6 +50,16 @@ $ git remote add origin git@github.com:michaelliao/learngit.git （origin自定义远
 推送到远程库：
 $ git push -u origin master （第一次）
 $ git push origin master 
+
+从远程库克隆：
+$ git clone git@github.com:michaelliao/gitskills.git
+
+创建分支(master是主分支)：
+git checkout -b dev
+
+查看分支：
+$ git branch
+
 
 
 
